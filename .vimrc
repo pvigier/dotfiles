@@ -31,11 +31,6 @@ set background=dark
 " Airline
 let g:airline_powerline_fonts=1
 
-" NERDTree
-if has("gui_running")
-    autocmd vimenter * NERDTree
-endif
-
 " Line numbers
 set number
 
@@ -71,9 +66,16 @@ set showcmd
 " Autocomplete for commands
 set wildmenu
 
-" Lazy redraw
+" Draw
 set lazyredraw
 
 " Errors
 set noerrorbells
 set visualbell
+
+" Gutter
+set signcolumn=yes
+
+" Splits
+set splitright
+set splitbelow
