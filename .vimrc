@@ -79,3 +79,7 @@ set signcolumn=yes
 " Splits
 set splitright
 set splitbelow
+
+" Movement
+nnoremap j gj
+nnoremap k gk
