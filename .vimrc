@@ -40,6 +40,8 @@ set guifont=Ubuntu\ Mono\ 12
 " Search
 set incsearch
 set hlsearch
+set ignorecase
+set smartcase
 
 " Tabs
 set tabstop=4
