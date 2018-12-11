@@ -46,8 +46,8 @@ set smartcase
 " Tabs
 set tabstop=4
 set shiftwidth=4
-set expandtab
 set softtabstop=4
+set expandtab
 
 " Backspace
 set backspace=2
@@ -85,3 +85,6 @@ set splitbelow
 " Movement
 nnoremap j gj
 nnoremap k gk
+
+" Language specific settings
+filetype plugin on
